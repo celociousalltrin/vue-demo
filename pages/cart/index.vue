@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>Hi from {{ route.name }}</h1>
-  </div>
+  <div>This is Cart page</div>
 </template>
 
 <script setup lang="ts">

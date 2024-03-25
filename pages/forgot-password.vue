@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Hi from {{ route.name }}</h1>
+    <p class="log" @click="navigateTo('/login')">Back to Login</p>
   </div>
 </template>
 
@@ -8,4 +9,10 @@
 const route = useRoute();
 </script>
 
-<style scoped></style>
+<style scoped>
+.log {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: large;
+}
+</style>
