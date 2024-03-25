@@ -18,7 +18,6 @@ type TProductTypes = {
 };
 
 const x = defineProps<TProductTypes>();
-console.log("🚀 ~ x:", x);
 </script>
 
 <style scoped>

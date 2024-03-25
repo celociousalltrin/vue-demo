@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>This is AppList Component</h1>
-    <AppCard />
   </div>
 </template>
 
